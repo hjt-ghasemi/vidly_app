@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+/* initializing */
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #2e2a68;
+}
+
+/* end of initializing */
+
+/* form */
+#input-user {
+  width: 100%;
+  padding: 7px 15px;
+  border-radius: 20px;
+  border: none;
+  background-color: #3f3a8b;
+  color: #d0d1db;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+#input-user:focus {
+  outline: none;
+}
+
+#input-user::placeholder {
+  color: #d0d1db;
+  opacity: 0.5;
+}
+/* end of form */
+
+/* profile card */
+.profile-card {
+  max-width: 700px;
+  background-color: #3f3a8b;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px 3px rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
+}
+
+.avatar-github {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 10px solid #2e2a68;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.profile-content {
+  color: #d0d1db;
+  margin: 20px;
+  flex: 1%;
+}
+
+.username {
+  font-family: "Poppins", sans-serif;
+}
+.login {
+  margin-bottom: 20px;
+  display: block;
+  letter-spacing: 1px;
+  opacity: 0.4;
+}
+
+.details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.details li span {
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.not-found {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #d0d1db;
+  margin: auto;
+}
+/* end of profile card */

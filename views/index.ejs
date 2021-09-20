@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./components/head', {title: 'GITI PASAND'}) -%>
+  <body>
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12 col-lg-6 col-xl-4 mx-auto">
+          <form id="form-user" autocomplete="off">
+            <input
+              type="text"
+              id="input-user"
+              placeholder="Enter a Github username"
+            />
+          </form>
+        </div>
+      </div>
+      <hr class="mb-5" />
+      <div class="row">
+        <div class="col-12">
+          <div class="profile-card"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
